@@ -6,4 +6,5 @@
     <string name="암호입력갯수">8글자 입력하시오</string>
     <string name="닉네임">닉네임</string>
     <string name="한줄로입력">한 줄로 입력</string>
+    <string name="확인">확인</string>
 </resources>
