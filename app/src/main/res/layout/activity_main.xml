@@ -62,10 +62,39 @@
         tools:ignore="LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/남성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/여성"
+            android:textColor="#8D6E63"
+            tools:ignore="TextContrastCheck" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/공개안함"
+            tools:ignore="TextContrastCheck" />
+
+
+
+
+    </RadioGroup>
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="true"
+        android:checked="false"
         android:text="@string/이용약관에동의"
         android:textColor="#8D6E63"
         tools:ignore="TextContrastCheck" />
