@@ -110,15 +110,15 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/공개안함"
             tools:ignore="TextContrastCheck" />
-
-
 
 
     </RadioGroup>
 
     <CheckBox
+        android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
