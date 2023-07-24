@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Signup</string>
+    <string name="title">MyTitle</string>
+    <string name="email">이메일 양식으로 입력</string>
 </resources>
